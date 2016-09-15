@@ -1,6 +1,6 @@
 {
   "name": "zcash-bitcore-lib",
-  "version": "0.13.19-rerelease",
+  "version": "0.13.20-rc1",
   "description": "A pure and powerful JavaScript Zcash library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
