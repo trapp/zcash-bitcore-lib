@@ -1,11 +1,15 @@
 Bitcore Library
 =======
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-lib.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-lib)
-[![Build Status](https://img.shields.io/travis/bitpay/bitcore-lib.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/bitcore-lib)
-[![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore-lib.svg?style=flat-square)](https://coveralls.io/r/bitpay/bitcore-lib)
+[![NPM Package](https://img.shields.io/npm/v/zcash-bitcore-lib.svg?style=flat-square)](https://www.npmjs.org/package/zcash-bitcore-lib)
+[![Build Status](https://img.shields.io/travis/bitmex/zcash-bitcore-lib.svg?branch=master&style=flat-square)](https://travis-ci.org/bitmex/zcash-bitcore-lib)
+[![Coverage Status](https://img.shields.io/coveralls/bitmex/zcash-bitcore-lib.svg?style=flat-square)](https://coveralls.io/r/bitmex/zcash-bitcore-lib)
 
 A pure and powerful JavaScript Bitcoin library.
+
+Forked for [Zcash](https://github.com/zcash/zcash) for use with [Bitcore](https://github.com/bitmex/zcash-bitcore).
+
+Credit to @bitpay for the original implementation and @str4d for the Zcash fork.
 
 ## Principles
 
@@ -14,11 +18,11 @@ Bitcoin is a powerful new peer-to-peer platform for the next generation of finan
 ## Get Started
 
 ```
-npm install bitcore-lib
+npm install zcash-bitcore-lib
 ```
 
 ```
-bower install bitcore-lib
+bower install zcash-bitcore-lib
 ```
 
 ## Documentation
@@ -32,15 +36,15 @@ To get community assistance and ask for help with implementation questions, plea
 
 ## Examples
 
-* [Generate a random address](https://github.com/bitpay/bitcore-lib/blob/master/docs/examples.md#generate-a-random-address)
-* [Generate a address from a SHA256 hash](https://github.com/bitpay/bitcore-lib/blob/master/docs/examples.md#generate-a-address-from-a-sha256-hash)
-* [Import an address via WIF](https://github.com/bitpay/bitcore-lib/blob/master/docs/examples.md#import-an-address-via-wif)
-* [Create a Transaction](https://github.com/bitpay/bitcore-lib/blob/master/docs/examples.md#create-a-transaction)
-* [Sign a Bitcoin message](https://github.com/bitpay/bitcore-lib/blob/master/docs/examples.md#sign-a-bitcoin-message)
-* [Verify a Bitcoin message](https://github.com/bitpay/bitcore-lib/blob/master/docs/examples.md#verify-a-bitcoin-message)
-* [Create an OP RETURN transaction](https://github.com/bitpay/bitcore-lib/blob/master/docs/examples.md#create-an-op-return-transaction)
-* [Create a 2-of-3 multisig P2SH address](https://github.com/bitpay/bitcore-lib/blob/master/docs/examples.md#create-a-2-of-3-multisig-p2sh-address)
-* [Spend from a 2-of-2 multisig P2SH address](https://github.com/bitpay/bitcore-lib/blob/master/docs/examples.md#spend-from-a-2-of-2-multisig-p2sh-address)
+* [Generate a random address](https://github.com/bitmex/zcash-bitcore-lib/blob/master/docs/examples.md#generate-a-random-address)
+* [Generate a address from a SHA256 hash](https://github.com/bitmex/zcash-bitcore-lib/blob/master/docs/examples.md#generate-a-address-from-a-sha256-hash)
+* [Import an address via WIF](https://github.com/bitmex/zcash-bitcore-lib/blob/master/docs/examples.md#import-an-address-via-wif)
+* [Create a Transaction](https://github.com/bitmex/zcash-bitcore-lib/blob/master/docs/examples.md#create-a-transaction)
+* [Sign a Bitcoin message](https://github.com/bitmex/zcash-bitcore-lib/blob/master/docs/examples.md#sign-a-bitcoin-message)
+* [Verify a Bitcoin message](https://github.com/bitmex/zcash-bitcore-lib/blob/master/docs/examples.md#verify-a-bitcoin-message)
+* [Create an OP RETURN transaction](https://github.com/bitmex/zcash-bitcore-lib/blob/master/docs/examples.md#create-an-op-return-transaction)
+* [Create a 2-of-3 multisig P2SH address](https://github.com/bitmex/zcash-bitcore-lib/blob/master/docs/examples.md#create-a-2-of-3-multisig-p2sh-address)
+* [Spend from a 2-of-2 multisig P2SH address](https://github.com/bitmex/zcash-bitcore-lib/blob/master/docs/examples.md#spend-from-a-2-of-2-multisig-p2sh-address)
 
 
 ## Security
@@ -51,19 +55,19 @@ If you find a security issue, please email security@bitpay.com.
 
 ## Contributing
 
-Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/bitpay/bitcore-lib/blob/master/CONTRIBUTING.md) file.
+Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/bitmex/zcash-bitcore-lib/blob/master/CONTRIBUTING.md) file.
 
 ## Building the Browser Bundle
 
-To build a bitcore-lib full bundle for the browser:
+To build a zcash-bitcore-lib full bundle for the browser:
 
 ```sh
 gulp browser
 ```
 
-This will generate files named `bitcore-lib.js` and `bitcore-lib.min.js`.
+This will generate files named `zcash-bitcore-lib.js` and `zcash-bitcore-lib.min.js`.
 
-You can also use our pre-generated files, provided for each release along with a PGP signature by one of the project's maintainers. To get them, checkout a release commit (for example, https://github.com/bitpay/bitcore-lib/commit/e33b6e3ba6a1e5830a079e02d949fce69ea33546 for v0.12.6).
+You can also use our pre-generated files, provided for each release along with a PGP signature by one of the project's maintainers. To get them, checkout a release commit (for example, https://github.com/bitmex/zcash-bitcore-lib/commit/e33b6e3ba6a1e5830a079e02d949fce69ea33546 for v0.12.6).
 
 To verify signatures, use the following PGP keys:
 - @braydonf: https://pgp.mit.edu/pks/lookup?op=get&search=0x9BBF07CAC07A276D `D909 EFE6 70B5 F6CC 89A3 607A 9BBF 07CA C07A 276D`
@@ -75,8 +79,8 @@ To verify signatures, use the following PGP keys:
 ## Development & Tests
 
 ```sh
-git clone https://github.com/bitpay/bitcore-lib
-cd bitcore-lib
+git clone https://github.com/bitmex/zcash-bitcore-lib
+cd zcash-bitcore-lib
 npm install
 ```
 
@@ -91,6 +95,6 @@ or create a test coverage report (you can open `coverage/lcov-report/index.html`
 
 ## License
 
-Code released under [the MIT license](https://github.com/bitpay/bitcore-lib/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/bitmex/zcash-bitcore-lib/blob/master/LICENSE).
 
 Copyright 2013-2015 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.

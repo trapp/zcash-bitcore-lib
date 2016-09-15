@@ -1,5 +1,5 @@
 
 
-var bitcoreTasks = require('bitcore-build-zcash');
+var bitcoreTasks = require('zcash-bitcore-build');
 
 bitcoreTasks('lib');
